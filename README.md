@@ -50,6 +50,7 @@ This project implements a complete IoT security pipeline that collects physical 
 - `mqtt_logger.py` subscribes to the topic
 - All readings are written into `temp.log` for ingestion
 - Traffic is visible from multiple network sources for correlation
+<img width="469" height="200" alt="image" src="https://github.com/user-attachments/assets/54d7ec66-9db7-4bcf-a3ce-4a572c8d6e29" />
 
 ---
 
@@ -76,7 +77,8 @@ Security events include:
 Filebeat forwards:
 - Suricata alerts (`eve.json`)
 - Temperature telemetry (`temp.log`)
-- <img width="452" height="220" alt="image" src="https://github.com/user-attachments/assets/64b2162d-8ed0-41a4-afb5-d25be61f3115" />
+<img width="468" height="247" alt="image" src="https://github.com/user-attachments/assets/a371665a-37ec-4d45-898c-bd252db30cd1" />
+
 
 
 Features:
@@ -87,6 +89,9 @@ Features:
 ---
 
 ##  ELK Stack Visualization
+<img width="452" height="415" alt="image" src="https://github.com/user-attachments/assets/56027203-97d5-4a41-96b1-62b3cca253c6" />
+<img width="468" height="205" alt="image" src="https://github.com/user-attachments/assets/b0819ef5-39a7-4f4f-8404-5b928deb4ac3" />
+
 Kibana dashboards visualize:
 - Temperature trends over time
 - Source IPs of detected threats
