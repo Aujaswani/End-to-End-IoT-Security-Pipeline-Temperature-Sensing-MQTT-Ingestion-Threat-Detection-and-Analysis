@@ -15,13 +15,13 @@ This project implements a complete IoT security pipeline that collects physical 
 ---
 
 ##  Hardware Components
-
+![image](https://github.com/user-attachments/assets/001a886b-96a7-42a3-906a-8b249236aafd)
 | Component | Description |
 |----------|-------------|
 | Raspberry Pi | Edge compute device handling sensor ingestion & publishing |
 | Breadboard | Rapid prototyping base for wiring |
 | DS18B20 Waterproof Sensor | Digital 1-Wire temperature probe for real-time readings |
-![image](https://github.com/user-attachments/assets/001a886b-96a7-42a3-906a-8b249236aafd)
+
 
 
 ---
