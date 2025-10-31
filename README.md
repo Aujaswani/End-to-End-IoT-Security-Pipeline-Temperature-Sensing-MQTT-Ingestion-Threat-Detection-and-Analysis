@@ -50,12 +50,12 @@ This project implements a complete IoT security pipeline that collects physical 
 - `mqtt_logger.py` subscribes to the topic
 - All readings are written into `temp.log` for ingestion
 - Traffic is visible from multiple network sources for correlation
-<img width="452" height="220" alt="image" src="https://github.com/user-attachments/assets/e6645732-6a2b-40de-b268-5f64a61d53dd" />
 
 ---
 
 ##  Intrusion Detection (Suricata IDS)
 Suricata monitors interface traffic to:
+
 <img width="452" height="298" alt="image" src="https://github.com/user-attachments/assets/e20028c2-b89a-4d77-ae7b-1c0daced7827" />
 
 - Detect abnormal payload patterns
@@ -93,6 +93,8 @@ Kibana dashboards visualize:
 - Alert categories and frequency
 - Timeline correlation between attacks and sensor activity
 - System health metrics
+<img width="468" height="305" alt="image" src="https://github.com/user-attachments/assets/53ab46ad-b4ee-424b-98cc-8f6e7bd5901f" />
+
 
 Dashboards support:
 - Filtering by timestamp
