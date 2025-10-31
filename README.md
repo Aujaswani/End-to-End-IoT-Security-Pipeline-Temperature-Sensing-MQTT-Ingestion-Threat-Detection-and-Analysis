@@ -50,11 +50,14 @@ This project implements a complete IoT security pipeline that collects physical 
 - `mqtt_logger.py` subscribes to the topic
 - All readings are written into `temp.log` for ingestion
 - Traffic is visible from multiple network sources for correlation
+<img width="452" height="220" alt="image" src="https://github.com/user-attachments/assets/e6645732-6a2b-40de-b268-5f64a61d53dd" />
 
 ---
 
 ##  Intrusion Detection (Suricata IDS)
 Suricata monitors interface traffic to:
+<img width="452" height="298" alt="image" src="https://github.com/user-attachments/assets/e20028c2-b89a-4d77-ae7b-1c0daced7827" />
+
 - Detect abnormal payload patterns
 - Flag malformed JSON injection attempts
 - Trigger alerts via custom Lua rules
@@ -73,6 +76,8 @@ Security events include:
 Filebeat forwards:
 - Suricata alerts (`eve.json`)
 - Temperature telemetry (`temp.log`)
+- <img width="452" height="220" alt="image" src="https://github.com/user-attachments/assets/64b2162d-8ed0-41a4-afb5-d25be61f3115" />
+
 
 Features:
 - JSON parsing for IDS alerts
